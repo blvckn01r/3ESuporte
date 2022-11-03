@@ -1,0 +1,19 @@
+body{
+	background-color: #A9A9A9;
+}
+footer{
+	background-color: rgba(0, 0, 0, 0.2);
+}
+header{
+	border-radius: 16%;
+	box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+	border: 1px solid rgba(58, 56, 56, 1);
+}
+.logo{
+
+	width:200px;
+}
+.ft_usuario{
+	border-radius: 50%;
+	width: 1.5cm;
+}

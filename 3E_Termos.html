@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel='stylesheet' type='text/css' href='style_termo.css'>
+	<link rel='icon' type='imagem/png' href='img/3Efavi.png'>
+	<link href='https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css' rel='stylesheet' integrity='sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor' crossorigin='anonymous'>
+	<title>TERMOS</title>
+</head>
+<body>
+	<center>
+		<div class="flip-container">
+			<div class="flipper">
+		
+				<div class="front">
+					<img src="img/3E logo.png">
+				</div>
+		   </div>
+		</div>
+	</center>
+    <br><br>
+	<div class="card text-center">
+		<div class="card-body">
+            <form>
+			    <div class="input-group mb-3" style='position: relative;'>
+				    <div class="input-group-text">
+				         <input class="form-check-input mt-0" type="checkbox" id="termosC" name="termosC" value="C"
+				         onclick="marcaDesmarca(this)">
+				    </div>
+                    <label for="" style='display: contents;'>EU li, entendi e concordo com estas regras e condições.</label>
+			    </div>
+			    <div class="input-group mb-3">
+				    <div class="input-group-text">
+				        <input class="form-check-input mt-0" type="checkbox" id="termosN" name="termosN" value="N"
+				        onclick="marcaDesmarca(this)">
+				    </div>
+                    <label for="#" style='display: contents;'>EU li, entendi e Não com estas regras e condições.</label>
+			    </div>
+		        <a href="#" class="btn btn-outline-info" onclick="fcnConfirma();">
+			        Prosseguir
+		        </a>
+			</form>
+		</div>
+		<div class="card-footer text-white-50 bg-dark">
+			© 3E Suporte, 2022. Todos os direitos reservados.
+		</div>
+	</div>
+
+    <script type="text/javascript">
+        function marcaDesmarca(caller) {
+            var checks = document.querySelectorAll('input[type="checkbox"]');    
+           checks.forEach(c => c.checked = (c == caller) );
+        }
+        function fcnConfirma() {
+            if (!document.getElementById('termosC').checked == false) {
+			    window.open("3E_cadastro.html","_self")
+            }
+		    else if (!document.getElementById('termosN').checked == true ){
+                alert("Marque uma opção:"); return;
+            }
+            else{
+			    window.open("index3E1.html","_self")
+			    alert("Marque a outra opção se se quiser presseguir para o cadastro."); return; 
+            }
+        }
+    </script>
+</body>
+</html>

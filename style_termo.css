@@ -1,0 +1,37 @@
+body{
+	background: linear-gradient(
+		to bottom,
+		white, black);
+	 	width: 100%;
+        height: 100vh;
+}
+
+@font-face{
+	font-family: OnePlus;
+	src: url('OnePlus.ttf') format('truetype');
+}
+html{
+	font-family: OnePlus;
+	font-size: 20px;
+	src: url('OnePlus.ttf') format('truetype');
+}
+img{
+	text-align: center;
+	width: 500px; 
+	transform: rotate(deg);
+	padding-top: 1px;
+}
+.flip-container {
+	perspective: 1000px;
+	display: inline-block;
+  }
+  .flipper{
+	width: 100%;
+	height: 100%;
+	transition: transform 0.8s;
+	transform-style: preserve-3d;
+}
+.flip-container:nth-child(1):hover .flipper {
+	transform: rotatez(360deg);
+  }
+
