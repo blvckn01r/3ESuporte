@@ -1,6 +1,6 @@
 body{
-	background-color: #000000;
-	background:  linear-gradient(#000000, #000000, #474A51 #c6c6c6, #777777, #ABABAB);
+	background-color: #A9A9A9;
+	background:  linear-gradient(#000000, #474A51, #c6c6c6, #777777, #ABABAB);
 }
 .icon{
 	width: 80px;
@@ -311,7 +311,7 @@ html.has-scroll-dragging {
 }
 
 .descricao{
-	text-shadow: 0.1em 0.1em 0.4em grey;
+	text-shadow: 0.1em 0.1em 0.4em black;
 	font-family: TestSöhne-Dreiviertelfett;
 	font-size: 40px;
 	letter-spacing: -2px;
