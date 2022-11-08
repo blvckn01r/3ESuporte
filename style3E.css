@@ -73,6 +73,16 @@ footer{
 	z-index: -1;
 
 }
+@media only screen and (max-width: 600px) {
+  body {
+  }
+  .back-video{ 
+  	width: 6cm;
+  	height: 5cm;
+  	position: absolute;
+    top: 0;
+  }
+}
 
 @media (min-aspect-ratio: 16/9){
 	.back-video{
