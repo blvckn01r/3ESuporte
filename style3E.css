@@ -337,9 +337,8 @@ html.has-scroll-dragging {
 .sub4{
 	font-family: TestSöhne-Dreiviertelfett;
 	font-weight: bold;
-	font-size: 82px;
-	letter-spacing: -3px;
-	padding-left: 20px;
+	font-size: 42px;
+	letter-spacing: -4px;
 	src: url('TestSöhne-Dreiviertelfett.otf') format('opentype');
 	color: #white;
 	transition: 0.3s;
