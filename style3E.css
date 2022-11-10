@@ -1,6 +1,6 @@
 body{
 	background-color: #000000;
-	background:  linear-gradient(#000000, #000000, #c6c6c6, #777777, #ABABAB);
+	background:  linear-gradient(#000000, #000000, #000000, #c6c6c6, #777777, #ABABAB);
 }
 .icon{
 	width: 80px;
@@ -337,8 +337,8 @@ html.has-scroll-dragging {
 .sub4{
 	font-family: TestSöhne-Dreiviertelfett;
 	font-weight: bold;
-	font-size: 42px;
-	letter-spacing: -4px;
+	font-size: 82px;
+	letter-spacing: -3px;
 	src: url('TestSöhne-Dreiviertelfett.otf') format('opentype');
-	color: #white;
+	color: #FFFFFF;
 	transition: 0.3s;
