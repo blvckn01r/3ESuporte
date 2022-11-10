@@ -327,3 +327,13 @@ html.has-scroll-dragging {
 	letter-spacing: -2px;
 	src: url('TestSöhne-Dreiviertelfett.otf') format('opentype');
 }
+
+.sub4{
+	font-family: TestSöhne-Dreiviertelfett;
+	font-weight: bold;
+	font-size: 82px;
+	letter-spacing: -3px;
+	padding-left: 20px;
+	src: url('TestSöhne-Dreiviertelfett.otf') format('opentype');
+	color: #grey;
+	transition: 0.3s;
