@@ -27,9 +27,7 @@ header{
 footer{
 	
 	background: rgb(31,27,36);
-	background: linear-gradient(360deg, 
-	rgba(31,27,36,1) 95%, 
-    rgba(134,131,137,1) 100%);
+	background: linear-gradient(360deg, rgba(31,27,36,1) 95%, rgba(134,131,137,1) 100%);
   	width: 100%;
 	height: 10%;
     padding: 10px 100%;
@@ -44,8 +42,6 @@ footer{
 	display: flex;
 	align-items: center;
 	justify-content: center;
-
-
 }
 
 .carrosel1{
@@ -55,7 +51,6 @@ footer{
 
 .pag{
 	color: white;
-
 }
 
 .card_img{
@@ -106,8 +101,6 @@ div {
 	font-family: TestSöhne-Dreiviertelfett;
 	src: url('TestSöhne-Dreiviertelfett.otf') format('opentype');
 }
-
-
 
 html, body {
   scroll-behavior: smooth;
@@ -237,11 +230,13 @@ html.has-scroll-dragging {
 	text-align: center;
 	font-style: italic;
 }
+
 .flex-container {
 	display: flex;
     align-items: baseline;
 	flex-wrap: nowrap;
-  }
+ }
+
 .flex-container > div{
 	width: 100px;
 	margin: 10px;
@@ -249,8 +244,10 @@ html.has-scroll-dragging {
 	line-height: 75px;
 	font-size: 16px;
 }
+
 .container{
 	width: 100%;
+	
 }
 .container ul li{
 	list-style: none;
@@ -298,10 +295,6 @@ html.has-scroll-dragging {
 	color: transparent;
 }
 
-.sub4:hover{
-	-webkit-text-stroke: 2px #fff;
-	color: transparent;
-
 .sub1{
 	font-family: TestSöhne-Dreiviertelfett;
 	font-weight: bold;
@@ -333,12 +326,3 @@ html.has-scroll-dragging {
 	color: #CDF0FF;
 	transition: 0.3s;
 }
-	
-.sub4{
-	font-family: TestSöhne-Dreiviertelfett;
-	font-weight: bold;
-	font-size: 82px;
-	letter-spacing: -3px;
-	src: url('TestSöhne-Dreiviertelfett.otf') format('opentype');
-	color: #FFFFFF;
-	transition: 0.3s;
