@@ -327,9 +327,8 @@ html.has-scroll-dragging {
 	transition: 0.3s;
 }
 
-.som{
-	
-	border-radius: 30%;
-	
+.button{
+	cursor: pointer;
+	border-radius: 100%;
 }
 
