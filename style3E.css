@@ -188,22 +188,7 @@ html.has-scroll-dragging {
     cursor: grabbing; }
   [data-scroll-direction="horizontal"] .c-scrollbar_thumb {
     right: auto;
-    bottom: 0; }
-
-.descricao{
-	font-family: TestSöhne-Dreiviertelfett;
-	font-size: 40px;
-	font-color
-	letter-spacing: -2px;
-	src: url('TestSöhne-Dreiviertelfett.otf') format('opentype');
-}
-
-.lead{
-	font-family: Helvetica-Bold;
-	font-size: 20px;
-	font-color: #FFFFFF;
-	/* letter-spacing: -2px; */
-	src: url('Helvetica-Bold.ttf') format('truetype');
+    bottom: 0;
 }
 
 .img3{
@@ -335,8 +320,25 @@ html.has-scroll-dragging {
 }
 
 .funcao{
-	text-shadow: 0.1em 0.1em 0.1em #FFFFFF;
+	text-shadow: #FFFFFF;
 	font-weight: bold;
+	font-size: 30px;
 	font-family: TestSöhne-Dreiviertelfett;
 	src: url('TestSöhne-Dreiviertelfett.otf') format('opentype');
+}
+
+.descricao{
+	font-family: TestSöhne-Dreiviertelfett;
+	font-size: 40px;
+	font-color
+	letter-spacing: -2px;
+	src: url('TestSöhne-Dreiviertelfett.otf') format('opentype');
+}
+
+.lead{
+	font-family: Helvetica-Bold;
+	font-size: 20px;
+	font-color: #FFFFFF;
+	/* letter-spacing: -2px; */
+	src: url('Helvetica-Bold.ttf') format('truetype');
 }
