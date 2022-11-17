@@ -193,6 +193,7 @@ html.has-scroll-dragging {
 .descricao{
 	font-family: TestSöhne-Dreiviertelfett;
 	font-size: 40px;
+	font-color
 	letter-spacing: -2px;
 	src: url('TestSöhne-Dreiviertelfett.otf') format('opentype');
 }
@@ -200,6 +201,7 @@ html.has-scroll-dragging {
 .lead{
 	font-family: Helvetica-Bold;
 	font-size: 20px;
+	font-color: #FFFFFF;
 	/* letter-spacing: -2px; */
 	src: url('Helvetica-Bold.ttf') format('truetype');
 }
@@ -273,8 +275,9 @@ html.has-scroll-dragging {
 }
 
 .descricao{
-	text-shadow: 0.1em 0.1em 0.4em grey;
+	text-shadow: 0.1em 0.1em 0.4em #FFFFFF;
 	font-family: TestSöhne-Dreiviertelfett;
+	font-color: #000000;
 	font-size: 40px;
 	letter-spacing: -2px;
 	src: url('TestSöhne-Dreiviertelfett.otf') format('opentype');
