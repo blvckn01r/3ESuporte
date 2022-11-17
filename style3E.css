@@ -322,7 +322,6 @@ html.has-scroll-dragging {
 .funcao{
 	text-shadow: #FFFFFF;
 	font-weight: bold;
-	font-size: 30px;
 	font-family: TestSöhne-Dreiviertelfett;
 	src: url('TestSöhne-Dreiviertelfett.otf') format('opentype');
 }
@@ -336,7 +335,8 @@ html.has-scroll-dragging {
 }
 
 .lead{
-	font-family: Helvetica;
+	font-family: Helvetica-Bold;
+	font-size: 40px;
 	font-color: #FFFFFF;
 	/* letter-spacing: -2px; */
 	src: url('Helvetica-Bold.ttf') format('truetype');
