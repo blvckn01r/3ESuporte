@@ -336,8 +336,7 @@ html.has-scroll-dragging {
 }
 
 .lead{
-	font-family: Helvetica-Bold;
-	font-size: 20px;
+	font-family: Helvetica;
 	font-color: #FFFFFF;
 	/* letter-spacing: -2px; */
 	src: url('Helvetica-Bold.ttf') format('truetype');
