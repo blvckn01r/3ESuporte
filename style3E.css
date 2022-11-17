@@ -61,7 +61,7 @@ footer{
     align-items: center;
 }
 
-/* .back-video{
+.back-video{
 	position: absolute;
 	right: 0;
 	bottom: 0;
@@ -91,7 +91,7 @@ footer{
 		height: 100%;
 	}
 }
-*/
+
 
 div {
   font-family: Helvetica;
