@@ -334,3 +334,9 @@ html.has-scroll-dragging {
 	cursor: pointer;
 }
 
+.funcao{
+	text-shadow: 0.1em 0.1em 0.1em #FFFFFF;
+	font-weight: bold;
+	font-family: TestSöhne-Dreiviertelfett;
+	src: url('TestSöhne-Dreiviertelfett.otf') format('opentype');
+}
