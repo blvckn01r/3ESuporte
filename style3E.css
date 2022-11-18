@@ -305,12 +305,12 @@ html.has-scroll-dragging {
 }
  
 .sub3{
-	font-family: TestSöhne-Dreiviertelfett;
+	font-family: RubikMonoOne-Regular;
 	font-weight: bold;
 	font-size: 82px;
 	letter-spacing: -3px;
 	padding-left: 20px;
-	src: url('TestSöhne-Dreiviertelfett.otf') format('opentype');
+	src: url('RubikMonoOne-Regular.ttf') format('truetype');
 	color: #CDF0FF;
 	transition: 0.3s;
 }
