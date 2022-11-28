@@ -257,20 +257,3 @@ html, body {
 	letter-spacing: -2px;
 	src: url('TestSöhne-Dreiviertelfett.otf') format('opentype');
 }
-
-/*nav{
-	width: 100%;
-	position: absolute;
-	top: 0;
-	left: 0;
-	padding: 20px 8%;
-	display: flex;
-	align-itens: center;
-	justify-content: space-between;
-	
-}*/
-
-nav ul li{
-	list-style: none;
-	display: inline-block;
-}
