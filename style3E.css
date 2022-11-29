@@ -42,8 +42,7 @@ footer{
 }*/
 
 footer .top-border {
-    background: /*linear-gradient(90deg, #fff, #a9a9a9)*/#A9A9A9;
-	background-color: #A9A9A9;
+    background: linear-gradient(90deg, #fff, #a9a9a9);
     height: 2px;
     left: 0;
     position: absolute;
