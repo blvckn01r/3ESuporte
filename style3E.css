@@ -40,6 +40,16 @@ footer{
 	padding: 70px 0 68px;
 	position: relative;
 }
+
+footer .top-border {
+    background: linear-gradient(90deg, #fff, #a9a9a9);
+    height: 2px;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
 .hero{
 	width: 100%;
 	height: 100vh;
