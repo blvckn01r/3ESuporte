@@ -118,8 +118,8 @@ div {
 }
 
 @font-face{
-	font-family: TestSöhne-Dreiviertelfett;
-	src: url('TestSöhne-Dreiviertelfett.otf') format('opentype');
+	font-family: NeueMontreal-Light;
+	src: url('NeueMontreal-Light.otf') format('opentype');
 }
 
 html, body {
