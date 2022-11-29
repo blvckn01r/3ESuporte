@@ -43,7 +43,7 @@ footer{
 
 footer .top-border {
     background: linear-gradient(90deg, #fff, #a9a9a9);
-    height: 2px;
+    height: 4px;
     left: 0;
     position: absolute;
     right: 0;
