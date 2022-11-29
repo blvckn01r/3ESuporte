@@ -208,11 +208,11 @@ html, body {
 
 .descricao{
 	text-shadow: 0.1em 0.1em 0.4em #FFFFFF;
-	font-family: TestSöhne-Dreiviertelfett;
+	font-family: Neue-Montreal;
 	font-color: #000000;
 	font-size: 40px;
 	letter-spacing: -2px;
-	src: url('TestSöhne-Dreiviertelfett.otf') format('opentype');
+	src: url('Neue-Montreal-Bold.otf') format('opentype');
 }
 
 .sub1:hover{
