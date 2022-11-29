@@ -52,7 +52,7 @@ footer .top-border {
 }
 
 footer ul, li{
-	display:inline-block
+	display:inline-block;
 }
 
 .hero{
@@ -275,7 +275,6 @@ html, body {
 .descricao{
 	font-family: TestSöhne-Dreiviertelfett;
 	font-size: 40px;
-	font-color
 	letter-spacing: -2px;
 	src: url('TestSöhne-Dreiviertelfett.otf') format('opentype');
 }
