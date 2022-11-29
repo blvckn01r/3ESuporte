@@ -162,8 +162,8 @@ html, body {
 
 .cc {
 	margin-right: auto;
-	text-align: center;
-	font-style: italic;
+	text-align: left;
+	font-style: italic, bold;
 }
 
 .flex-container {
