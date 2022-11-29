@@ -33,11 +33,12 @@ footer{
     padding: 10px 100%;
   }
 */
-	background: #grey;
-    box-sizing: border-box;
-    color: #fff;
-    padding: 70px 0 68px;
-    position: relative;
+	background: rgb (31,27,36);
+	box-sizing: border-box;
+	color: #fff;
+	width: 100%;
+	padding: 70px 0 68px;
+	position: relative;
 }
 .hero{
 	width: 100%;
