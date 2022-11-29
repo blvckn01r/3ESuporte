@@ -26,20 +26,20 @@ header{
 }
 footer{
 	
-	/*background: rgb(31,27,36);
+	background: rgb(31,27,36);
 	background: linear-gradient(360deg, rgba(31,27,36,1) 95%, rgba(134,131,137,1) 100%);
   	width: 100%;
 	height: 10%;
     padding: 10px 100%;
   }
-*/
-	background: /*rgb (31,27,36)*/#A9A9A9;
+
+	/* background: rgb (31,27,36)
 	box-sizing: border-box;
 	color: #fff;
 	width: 100%;
 	padding: 70px 0 68px;
-	position: relative;
-}
+	position: relative; 
+}*/
 
 footer .top-border {
     background: /*linear-gradient(90deg, #fff, #a9a9a9)*/#A9A9A9;
