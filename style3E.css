@@ -117,9 +117,9 @@ div {
   font-family: Helvetica;
 }
 
-@font-face{
+/* @font-face{
 	font-family: NeueMontreal-Light;
-	src: url('NeueMontreal-Light.otf') format('opentype');
+	src: url('NeueMontreal-Light.otf') format('opentype'); */
 }
 
 html, body {
@@ -129,9 +129,9 @@ html, body {
 .lead{
 	padding-left: 10px;
 	letter-spacing: -1px;
-	font-family: TestSöhne-Dreiviertelfett;
+	/* font-family: TestSöhne-Dreiviertelfett; */
 	font-size: 22px;
-	src: url('TestSöhne-Dreiviertelfett.otf') format('opentype');
+	/* src: url('TestSöhne-Dreiviertelfett.otf') format('opentype'); */
 }
 
 .img2{
@@ -202,17 +202,17 @@ html, body {
 }
 
 .txt ul li a{
-	font-family: TestSöhneBreit-Extraleicht;
-	src: url('TestSöhneBreit-Extraleicht') format('opentype');
+	/* font-family: TestSöhneBreit-Extraleicht;
+	src: url('TestSöhneBreit-Extraleicht') format('opentype'); */
 }
 
 .descricao{
 	text-shadow: 0.1em 0.1em 0.4em #FFFFFF;
-	font-family: NeueMontreal-Bold;
+	/* font-family: NeueMontreal-Bold; */
 	font-color: #000000;
 	font-size: 40px;
 	letter-spacing: -2px;
-	src: url('NeueMontreal-Bold.otf') format('opentype');
+	/* src: url('NeueMontreal-Bold.otf') format('opentype'); */
 }
 
 .sub1:hover{
@@ -231,33 +231,33 @@ html, body {
 }
 
 .sub1{
-	font-family: TestSöhne-Dreiviertelfett;
+	/* font-family: TestSöhne-Dreiviertelfett; */
 	font-weight: bold;
 	font-size: 82px;
 	letter-spacing: -3px;
 	padding-left: 20px;
-	src: url('TestSöhne-Dreiviertelfett.otf') format('opentype');
+	/* src: url('TestSöhne-Dreiviertelfett.otf') format('opentype'); */
 	color:  #007FFF;
 	transition: 0.3s;
 }
 
 .sub2{
-	font-family: TestSöhne-Dreiviertelfett;
+	/* font-family: TestSöhne-Dreiviertelfett; */ 
 	font-weight: bold;
 	font-size: 82px;
 	letter-spacing: -3px;
-	src: url('TestSöhne-Dreiviertelfett.otf') format('opentype');
+	/* src: url('TestSöhne-Dreiviertelfett.otf') format('opentype'); */
 	color: #87CEEB;
 	transition: 0.3s;
 }
  
 .sub3{
-	font-family: RubikMonoOne-Regular;
+	/* font-family: RubikMonoOne-Regular; */
 	font-weight: bold;
 	font-size: 82px;
 	letter-spacing: -3px;
 	padding-left: 20px;
-	src: url('RubikMonoOne-Regular.ttf') format('truetype');
+	/* src: url('RubikMonoOne-Regular.ttf') format('truetype'); */
 	color: #CDF0FF;
 	transition: 0.3s;
 }
@@ -272,8 +272,8 @@ html, body {
 
 
 .descricao{
-	font-family: TestSöhne-Dreiviertelfett;
+	/* font-family: TestSöhne-Dreiviertelfett; */
 	font-size: 40px;
 	letter-spacing: -2px;
-	src: url('TestSöhne-Dreiviertelfett.otf') format('opentype');
+	/* src: url('TestSöhne-Dreiviertelfett.otf') format('opentype'); */
 }
