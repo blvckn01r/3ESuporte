@@ -278,7 +278,9 @@ html, body {
 	/* src: url('TestSöhne-Dreiviertelfett.otf') format('opentype'); */
 }
 
-.logo2{
-	text-align: right;
-	padding: 10px;
+#logologo{
+	float: right;
+	position: absolute;
+  	right: 0px;
+	
 }
