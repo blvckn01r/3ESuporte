@@ -1,3 +1,19 @@
+#home{
+	background: none;
+	height: 100%;
+}
+
+#home-bg-video{
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translateX(-50%) translateY(-50%);
+	min-width: 100%;
+	min-height: 100;
+	width: auto;
+	height: auto;
+	z-index: -1;
+
 .wrapper {
   position: relative;
   overflow: hidden;
@@ -5,7 +21,8 @@
   margin: 100px; */
 }
 .wrapper img {
-  /*max-width: 100%; */
+  background-size: 100%;
+ background-repeat: no-repeat;
   -moz-transition: all 0.5s;
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
