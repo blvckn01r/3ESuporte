@@ -1,15 +1,21 @@
-/* .wrapper{
-	overflow: hidden;
+.wrapper {
+  position: relative;
+  border: 1px solid #000;
+  overflow: hidden;
+  /* width: 400px;
+  margin: 100px; */
 }
-
-.wrapper img{
-	object-fit: cover;
-	transition: transform 400ms;
+.wrapper img {
+  /*max-width: 100%; */
+  -moz-transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
 }
-
-.wrapper:hover img{
-	transformation: scale(1.2);
-} */
+.wrapper:hover img {
+  -moz-transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+}
 
 
 body{
