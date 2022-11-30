@@ -1,3 +1,21 @@
+.wrapper{
+	width: 20rem;
+	height: 20rem;
+	overflow: hidden;
+}
+
+.wrapper img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	transition: transform 400ms;
+}
+
+.wrapper:hover img{
+	transformation: scale(1.2);
+}
+
+
 body{
 	background-color: #000000;
 	background:  linear-gradient(#000000, #000000, #3E77B6, #000080, #3E77B6, #000080, #A9A9A9);
