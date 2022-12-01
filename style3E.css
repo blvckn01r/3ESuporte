@@ -1,7 +1,7 @@
 body{
 	font-family: 'Neue Montreal', 'Helvetica', sans-serif;
 	background-color: #000000;
-	background:  linear-gradient(#A9A9A9, #000080, #A9A9A9);
+	background:  linear-gradient(#000000, #A9A9A9, #000080, #A9A9A9);
 }
 .icon{
 	width: 80px;
