@@ -1,5 +1,5 @@
 body{
-	font-family: 'Helvetica', sans-serif;
+	font-family: 'Neue Montreal', 'Helvetica', sans-serif;
 	background-color: #000000;
 	background:  linear-gradient(#000000, #000000, #A9A9A9, #000080, #A9A9A9);
 }
@@ -146,7 +146,6 @@ html, body {
 	color: #FFFFFF;
 	padding-left: 10px;
 	letter-spacing: -1px;
-	font-family: 'Neue-Montreal';
 	font-size: 26px;
 	src: url('neuemontreal-italic-webfont.woff') format('woff');
 	src: url('neuemontreal-italic-webfont.woff2') format('woff2');
