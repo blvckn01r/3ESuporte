@@ -1,65 +1,3 @@
-.hero{
-	width: 100%;
-	height: 100vh;
-	position: relative;
-	padding: 0 5%;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-}
-
-.back-video{
-	position: absolute;
-	right: 0;
-	bottom: 0;
-	z-index: -1;
-}
-@media only screen and (max-width: 100%) {
-  body {
-  }
-  .back-video{ 
-  	width: 6cm;
-  	height: 5cm;
-  	position: absolute;
-    top: 0;
-  }
-}
-
-@media (min-aspect-ratio: 16/9){
-	.back-video{
-		width: 100%;
-		height: auto;
-	}
-}
-
-@media (max-aspect-ratio: 16/9){
-	.back-video{
-		width: auto;
-		height: 100%;
-	}
-}
-
-.wrapper {
-  position: relative;
-  overflow: hidden;
-  /* width: 400px;
-  margin: 100px; */
-}
-	
-.wrapper img {
-  background-size: 100%;
- background-repeat: no-repeat;
-  -moz-transition: all 0.5s;
-  -webkit-transition: all 0.5s;
-  transition: all 0.5s;
-}
-.wrapper:hover img {
-  -moz-transform: scale(1.2);
-  -webkit-transform: scale(1.2);
-  transform: scale(1.2);
-}
-
-
 body{
 	background-color: #000000;
 	background:  linear-gradient(#000000, #000000, #3E77B6, #000080, #3E77B6, #000080, #A9A9A9);
@@ -141,6 +79,58 @@ footer ul, li{
 
 .card_button{
     align-items: center;
+}
+
+.back-video{
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	z-index: -1;
+}
+
+@media only screen and (max-width: 100%) {
+  body {
+  }
+  .back-video{ 
+  	width: 6cm;
+  	height: 5cm;
+  	position: absolute;
+    top: 0;
+  }
+}
+
+@media (min-aspect-ratio: 16/9){
+	.back-video{
+		width: 100%;
+		height: auto;
+	}
+}
+
+@media (max-aspect-ratio: 16/9){
+	.back-video{
+		width: auto;
+		height: 100%;
+	}
+}
+
+.wrapper {
+  position: relative;
+  overflow: hidden;
+  /* width: 400px;
+  margin: 100px; */
+}
+	
+.wrapper img {
+  background-size: 100%;
+ background-repeat: no-repeat;
+  -moz-transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+.wrapper:hover img {
+  -moz-transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
 }
 
 div {
