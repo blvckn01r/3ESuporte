@@ -91,7 +91,7 @@ footer ul, li{
     align-items: center;
 }
 
-.back-video{
+.back-video, #bg-img{
 	position: absolute;
 	right: 0;
 	bottom: 0;
